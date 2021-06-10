@@ -49,8 +49,8 @@ function Test() {
       <nav id="navbar" className={navClass}>
         <ul>
           <li><a  href="index.html">Home</a></li>
-          <li><a  class="nav-link scrollto" href="about.html">About</a></li>
-          <li ><a href="blog.html#ser" id="sir" >Services</a></li>
+          <li><a  href="about.html">About</a></li>
+          <li ><a href="blog.html#ser">Services</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
