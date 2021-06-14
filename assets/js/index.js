@@ -25,10 +25,11 @@ function Test() {
     <div>
        
        <section id="topbar" class="d-flex align-items-center">
-      <div class="container d-flex justify-content-center justify-content-md-between">
+    <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:info@brandonconsulting.com">info@brandonconsulting.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><a href="tel:(732) 650-9121" /><span>(732) 650-9121</span></i>
+        
       </div>
 
       <div class="cta d-none d-md-flex align-items-center">
@@ -53,14 +54,11 @@ function Test() {
         <ul>
           <li><a  href="index.html">Home</a></li>
           <li><a  href="about.html">About</a></li>
-          <li ><a href="blog.html">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-          <li><a href="blog.html">Blog</a></li>
-         
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a  href="Specialities.html">Specialities</a></li>
+          <li><a  href="Careers.html">Careers</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          </ul>
         <i onClick={toggleMobileNav} className={menuClass}></i>
       </nav>
 
@@ -74,4 +72,4 @@ function Test() {
 
 
 ReactDOM.render(<Test/>, document.getElementById('root'));
-// onClick={()=>setActiveClass('home')} class={activeClass === 'home'?'active':'nav-link scrollto'}
+{/* // onClick={()=>setActiveClass('home')} class={activeClass === 'home'?'active':'nav-link scrollto'} */}
