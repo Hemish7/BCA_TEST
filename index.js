@@ -10,7 +10,7 @@ function Test() {
   
  
   function toggleMobileNav () {
-    if(!mobileNav) {
+    if(mobileNav) {
       setNavClass('navbar');
       setMobileNav(false);
       setMenuClass('bi bi-list mobile-nav-toggle');
