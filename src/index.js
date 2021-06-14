@@ -9,17 +9,17 @@ function Test() {
   //bi mobile-nav-toggle bi-x
   
  
-  // function toggleMobileNav () {
-  //   if(mobileNav) {
-  //     setNavClass('navbar');
-  //     setMobileNav(false);
-  //     setMenuClass('bi bi-list mobile-nav-toggle');
-  //   } else {
-  //     setNavClass('navbar navbar-mobile');
-  //     setMobileNav(true);
-  //     setMenuClass('bi mobile-nav-toggle bi-x');
-  //   }
-  // }
+  function toggleMobileNav () {
+    if(mobileNav) {
+      setNavClass('navbar');
+      setMobileNav(false);
+      setMenuClass('bi bi-list mobile-nav-toggle');
+    } else {
+      setNavClass('navbar navbar-mobile');
+      setMobileNav(true);
+      setMenuClass('bi mobile-nav-toggle bi-x');
+    }
+  }
 
   return(
     <div>
@@ -51,27 +51,11 @@ function Test() {
           <li><a  href="index.html">Home</a></li>
           <li><a  href="about.html">About</a></li>
           <li ><a href="blog.html">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
+          <li><a  href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a  href="#pricing">Pricing</a></li>
           <li><a href="blog.html">Blog</a></li>
-          {/* <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> */}
+          
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i onClick={toggleMobileNav} class={menuClass}></i>
