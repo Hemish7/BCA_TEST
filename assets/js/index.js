@@ -40,8 +40,11 @@ function Test() {
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
+      
       <div class="logo">
-        <h1><a href="index.html">Flexor</a></h1>
+        
+        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid" /></a>
+      
         
       </div>
 
