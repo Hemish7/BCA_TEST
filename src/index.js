@@ -9,17 +9,17 @@ function Test() {
   //bi mobile-nav-toggle bi-x
   
  
-  function toggleMobileNav () {
-    if(mobileNav) {
-      setNavClass('navbar');
-      setMobileNav(false);
-      setMenuClass('bi bi-list mobile-nav-toggle');
-    } else {
-      setNavClass('navbar navbar-mobile');
-      setMobileNav(true);
-      setMenuClass('bi mobile-nav-toggle bi-x');
-    }
-  }
+  // function toggleMobileNav () {
+  //   if(mobileNav) {
+  //     setNavClass('navbar');
+  //     setMobileNav(false);
+  //     setMenuClass('bi bi-list mobile-nav-toggle');
+  //   } else {
+  //     setNavClass('navbar navbar-mobile');
+  //     setMobileNav(true);
+  //     setMenuClass('bi mobile-nav-toggle bi-x');
+  //   }
+  // }
 
   return(
     <div>
